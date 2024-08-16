@@ -1,0 +1,27 @@
+{
+  "name": "oitech",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "sass": "sass --watch public/scss/style.scss:public/css/style.css"
+  },
+  "dependencies": {
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.4",
+    "next": "13.0.4",
+    "react": "18.2.0",
+    "react-countup": "^6.4.0",
+    "react-dom": "18.2.0",
+    "react-id-swiper": "^4.0.0",
+    "react-modal-video": "^2.0.0",
+    "react-visibility-sensor": "^5.1.1",
+    "sass": "^1.56.1",
+    "swiper": "^9.0.4",
+    "typewriter-effect": "^2.19.0",
+    "wowjs": "^1.1.3"
+  }
+}

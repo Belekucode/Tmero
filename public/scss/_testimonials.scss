@@ -1,0 +1,132 @@
+/*** 
+
+====================================================================
+    Testimonial Section
+====================================================================
+
+***/
+
+.testimonial-section{
+    position: relative;
+    padding: 120px 0 75px;
+    background-color: #f2f8f8;
+    .icon-dotted-map-2{
+        left: -540px;
+        top: -100px;
+    }
+    .carousel-outer{
+        position: relative;
+        margin-right: -415px;
+        margin-left: -15px;
+    }
+    .owl-dots{
+        position: absolute;
+        left: -382px;
+        bottom: 130px;
+        display: flex;
+        .owl-dot{
+            display: block;
+            height: 15px;
+            width: 15px;
+            background-color: #c7ccce;
+            border: 3px solid #f2f8f8;
+            border-radius: 50%;
+            margin-right: 2px;
+            &.active{
+                opacity: 1;
+                border: 3px solid var(--border-theme-color2);
+                background-color: #f2f8f8;
+            }
+        }
+    }
+}
+
+.testimonial-block{
+    position: relative;
+    margin-bottom: 30px;
+    .inner-box {
+        position: relative;
+        padding: 70px 15px 15px;
+    }
+    .content-box {
+        position: relative;
+        display: block;
+        background-color: #ffffff;
+        padding: 55px 60px 60px;
+        box-shadow: 0 0 15px rgba(0,0,0, .10);
+        border-radius: 20px;
+        &:before{
+            position: absolute;
+            width: 334px;
+            height: 265px;
+            right: 0;
+            top: 0;
+            background-image: url(../images/icons/border-dashed.png);
+            background-repeat: no-repeat;
+            content: "";
+        }
+        .thumb{
+            position: absolute;
+            right: 40px;
+            top: -70px;
+            height: 140px;
+            width: 140px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, .10);
+            border-radius: 50%;
+            img{
+                border-radius: 50%;
+            }
+        }
+        .rating {
+            font-size: 20px;
+            color: #f89321;
+            margin-bottom: 15px;
+            i{
+                margin-right: 5px;
+            }
+        }
+        
+        .text {
+            position: relative;
+            font-size: 20px;
+            line-height: 36px;
+            color: #7d8185;
+            margin-bottom:30px;
+        }
+    }
+    .info-box {
+        position: relative;
+        padding-left: 90px;
+        min-height: 70px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .icon-quote{
+            @include absolute;
+            @include flex-center;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            overflow: hidden;
+            background-color: var(--bg-theme-color3);
+            background-image: url(../images/icons/icon-quote.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .name {
+            margin-bottom: 2px;
+        }
+        .designation {
+            position: relative;
+            text-transform: uppercase;
+            display: block;
+            font-size: 13px;
+            color: #808287;
+            font-weight: 500;
+            line-height: 22px;
+            letter-spacing: .1em;
+        }
+    }
+
+    
+}

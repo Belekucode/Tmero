@@ -1,0 +1,65 @@
+/*** 
+
+====================================================================
+Section Title
+====================================================================
+
+***/
+
+.sec-title {
+    position: relative;
+    margin-bottom: 50px;
+    .sub-title {
+        position: relative;
+        top: -10px;
+        font-size: var(--sec-title-subtitle-font-size);
+        color: var(--sec-title-subtitle-color);
+        line-height: var(--sec-title-subtitle-line-height);
+        font-weight: var(--sec-title-subtitle-font-weight);
+        font-family: var(--sec-title-subtitle-font-family);;
+        display: inline-block;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+    }
+    h1 {
+        position: relative;
+        font-size: 70px;
+        line-height: 1em;
+        color: var(--sec-title-color);
+        font-family: var(--sec-title-font-family);
+        font-weight: var(--sec-title-font-weight);
+    }
+    h2 {
+        position: relative;
+        font-size: var(--sec-title-font-size);
+        color: var(--sec-title-color);
+        font-family: var(--sec-title-font-family);
+        font-weight: var(--sec-title-font-weight);
+        margin-top: -5px;
+        margin-bottom: 0;
+    }
+    .text {
+        margin-top: 30px;
+    }
+}
+
+.sec-title.light{
+    h2,
+    h1{
+        color: #fff;
+    }
+    .text{
+        color: rgba(255,255,255, .60);
+    }
+    .sub-title{
+        color: var(--theme-color2);
+    }
+}
+
+
+.sec-title-outer{
+    .text{
+        max-width: 470px;
+        margin-top: 20px;
+    }
+}

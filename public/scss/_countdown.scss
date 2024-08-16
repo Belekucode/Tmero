@@ -1,0 +1,110 @@
+/*** 
+
+====================================================================
+ 	Countdown Section
+====================================================================
+
+***/
+
+.countdown-section {
+    position: relative;
+    background-color: var(--bg-theme-color1);
+    padding: 120px 0 110px;
+    .bg-image{
+        @include overlay;
+        @include background;
+    }
+}
+
+.countdown-section .content-box {
+    position: relative;
+    .sec-title{
+        margin-bottom: 80px;
+    }
+}
+
+
+.time-counter {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .counter-column {
+        position: relative;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 160px;
+        height: 160px;
+        font-size: 22px;
+        color: #fff;
+        line-height: 2em;
+        letter-spacing: .01em;
+        font-weight: 700;
+        z-index: 7;
+        margin:10px 10px;
+        border-radius: 50%;
+        background: #ffffff;
+        .count {
+            position: relative;
+            display: block;
+            font-size: 50px;
+            line-height: .8em;
+            color: #ffffff;
+            letter-spacing: 0em;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+        &:nth-child(4n + 1){background-color: #ef5c72;}
+        &:nth-child(4n + 2){background-color: #f16101;}
+        &:nth-child(4n + 3){background-color: #8e56ff;}
+        &:nth-child(4n + 4){background-color: #2da397;}
+    }
+}
+
+
+.time-counter-two{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .counter-column {
+        position: relative;
+        min-width: 130px;
+        height: 160px;
+        z-index: 7;
+        margin-right: 14px;
+        background: #fff;
+        border: 2px solid #f1f1f1;
+        .count {
+            position: relative;
+            @include flex-center;
+            font-size: 45px;
+            line-height: .8em;
+            color: var(--theme-color4);
+            letter-spacing: 0em;
+            font-weight: 400;
+            font-family: var(--style-font);
+            min-height: 120px;
+        }
+        .title{
+            display: block;
+            width: 100%;
+            font-size: 12px;
+            line-height: 20px;
+            padding: 10px 10px;
+            text-transform: uppercase;
+            font-weight: 700;
+            background-color: var(--bg-theme-color1);
+            color: #ffffff;
+            letter-spacing: 2px;
+        }
+        &:nth-child(4n + 1) .title{background-color: #ef5c72;}
+        &:nth-child(4n + 2) .title{background-color: #6956f9;}
+        &:nth-child(4n + 3) .title{background-color: #f8941f;}
+        &:nth-child(4n + 4) .title{background-color: #00c7c4;}
+    }
+}

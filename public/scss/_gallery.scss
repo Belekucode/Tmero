@@ -1,0 +1,69 @@
+/*** 
+
+====================================================================
+	Gallery Section
+====================================================================
+
+***/
+
+.gallery-section {
+    position: relative;
+    padding: 120px 0;
+    z-index: 1;
+    .icon-line-1{
+        left: -320px;
+        top: 225px;
+    }
+    .icon-dots-7{
+        right: -190px;
+        top:40px;
+    }
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 15px;
+    img {
+        display: inline-block;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        transition: all 0.3s ease;
+    }
+    a {
+        position: relative;
+        display: block;
+        &:before {
+            @include overlay;
+            @include flex-center;
+            content: "\e051";
+            color: #ffffff;
+            font-size: 42px;
+            font-family: 'linearicons-free';
+            z-index: 1;
+            background: rgba(78, 205, 153, .90);
+            border-radius: 15px;
+            transition: all 300ms ease;
+            transform: scale(.7);
+            opacity: 0;
+            visibility: hidden;
+        }
+        &:hover:before {
+            transform: scale(1);
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    &:hover img {
+        opacity: 1;
+        transform: scale(1.1);
+        border-radius: 10px;
+    }
+}
+
+.gallery-carousel .owl-nav,
+.gallery-carousel .owl-dots {
+    display: none;
+}

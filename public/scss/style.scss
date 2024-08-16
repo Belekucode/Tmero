@@ -1,0 +1,109 @@
+/* Edulerns | Education HTML Template
+
+Template Name: Edulerns
+Version: 1.0.0
+License: copyright commercial
+
+/************ TABLE OF CONTENTS ***************
+1. Fonts
+2. Reset
+3. Global Settings
+4. Main Header / TWO
+5. Sticky Header 
+6. Mobile Menu
+7. Section Title
+8. Page Title
+9. Main Slider
+10. About Section / Two / Three / Four
+11. Courses Section / Two
+12. Features Section / Two
+13. Categories Section / Two
+14. Fun Fact Section / Two
+15. FAQ's Sectiom
+16. SignUp Sectiom / Two
+17. team Section
+18. Video Section
+19. Pricing Section
+20. Gallery Section
+21. Event Section
+22. Call To Action
+23. Testimonial Section
+24. Countdown Section
+25. News Section / Two
+26. Clients Section
+27. Main Footer
+**********************************************/
+
+@import "common/root.scss";
+@import "common/mixing.scss";
+@import "common/loader.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Satisfy&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Reey";
+  src: url("../fonts/Reey-Regular.woff2") format("woff2"),
+    url("../fonts/Reey-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url("animate.css");
+@import url("owl.css");
+@import url("swiper.min.css");
+@import url("jquery.fancybox.min.css");
+// @import url("jquery-ui.css");
+@import url("linear.css");
+@import url("select2.min.css");
+@import url("fontawesome-all.css");
+@import url("flaticon.css");
+@import url("tm-bs-mp.css");
+@import url("tm-utility-classes.css");
+
+@import "../../node_modules/react-modal-video/scss/modal-video.scss";
+
+// import SCSS components one by one
+@import "reset.scss";
+@import "button.scss";
+@import "animate-icon.scss";
+@import "search-popup.scss";
+@import "header.scss";
+@import "mobile-menu.scss";
+@import "section-title.scss";
+@import "main-slider.scss";
+@import "about.scss";
+@import "courses.scss";
+@import "features.scss";
+@import "categories-current.scss";
+@import "funfact.scss";
+@import "faqs.scss";
+@import "signup.scss";
+@import "team.scss";
+@import "video.scss";
+@import "pricing.scss";
+@import "gallery.scss";
+@import "event.scss";
+@import "call-to-action.scss";
+@import "testimonials.scss";
+@import "countdown.scss";
+@import "news.scss";
+@import "clients.scss";
+
+@import "shop/loader.scss";
+
+//inner
+@import "inner/page-title.scss";
+@import "inner/404.scss";
+@import "inner/course-details.scss";
+@import "inner/service-details.scss";
+@import "inner/project-details.scss";
+@import "inner/news-details.scss";
+@import "inner/news-sidebar.scss";
+@import "inner/news-comment.scss";
+@import "inner/team-details.scss";
+@import "inner/contact-page.scss";
+
+@import "slider1.scss";
+
+@import "footer.scss";

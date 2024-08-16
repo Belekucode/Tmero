@@ -1,0 +1,57 @@
+/*** 
+
+====================================================================
+		Call To Action
+====================================================================
+
+***/
+
+.call-to-action{
+    position: relative;
+    @include background;
+    z-index: 2;
+    .icon-calculator{
+        top: -50px;
+        left: -410px;
+    }
+    .icon-pin-clip{
+        left: -320px;
+        bottom: 50px;
+    }
+    .icon-dots{
+        top: 50px;
+        left: 570px;
+        animation: fa-spin 100s infinite linear;
+    }
+
+    .title-column{
+        .inner-column{
+            position: relative;
+            padding: 120px 0;
+        }
+        .sec-title{
+            margin-bottom: 0px;
+            .theme-btn{
+                margin-top: 20px;
+            }
+        }
+        .style-font{
+            display: block;
+            font-size: 44px;
+            color: var(--theme-color4);
+            margin-left: 190px;
+            line-height: 1.2em;
+            margin-bottom: 20px;
+        }
+    }
+    .image-column{
+        .image{
+            position: relative;
+            margin-top: -90px;
+            margin-right: -375px;
+            margin-left: -30px;
+            margin-bottom: 0;
+        }
+    }
+}
+

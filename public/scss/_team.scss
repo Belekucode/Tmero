@@ -1,0 +1,160 @@
+/***
+
+====================================================================
+    team Section
+====================================================================
+
+***/
+
+.team-section {
+    position: relative;
+    padding: 120px 0 90px;
+    overflow: hidden;
+    .sec-title{
+        margin-bottom: 25px;
+    }
+}
+
+.team-block{
+    position: relative;
+    margin-bottom: 40px;
+    .inner-box {
+        position: relative;
+        &:hover{
+            .image-box{
+                &:after{
+                    border-color: var(--border-theme-color2);
+                    clip-path: polygon(25% -70%, 75% -70%, 120% 50%, 75% 170%, 25% 170%, -20% 50%);
+                }
+            }
+            .image img {
+                transform: scale(1.1);
+                transform-origin: top center;
+            }
+            .social-links {
+                transform: scaleY(1);
+                opacity: 1;
+                visibility: visible;
+            }
+            .share-icon {
+                background-color: var(--bg-theme-color2);
+            }
+        }
+    }
+    .image-box {
+        position: relative;
+        height: 275px;
+        width: 275px;
+        border-radius: 50%;
+        padding: 27px 27px;
+        margin:0 auto 20px;
+        &:before{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 50%;
+            border: 8px solid #f2f8f8;
+            border-top: 0;
+            content: "";
+            border-radius: 0 0 200px 200px;
+            transition: all 700ms ease;
+        }
+        &:after {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 50%;
+            border: 8px solid #f2f8f8;
+            border-top: 0;
+            clip-path: polygon(50% 0, 50% 0, 50% 50%, 50% 100%, 50% 100%, 50% 50%);
+            content: "";
+            border-radius: 0 0 200px 200px;
+            transition: all 700ms ease;
+        }
+        .image {
+            position: relative;
+            overflow: hidden;
+            height: 220px;
+            width: 220px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 0;
+            z-index: 1;
+            img {
+                width: 100%;
+                transition: all 400ms ease;
+            }
+        }
+    }
+    .share-icon {
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 16px;
+        color: var(--theme-color2);
+        background-color: #ffffff;
+        box-shadow: 0 5px 20px rgba(0,0,0, .20);
+        border-radius: 50%;
+        transition: all 300ms ease;
+        z-index: 3;
+    }
+    .social-links {
+        position: absolute;
+        left: 35px;
+        top: 28px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ffffff;
+        transform: scaleY(0);
+        transform-origin: top;
+        z-index: 3;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 400ms ease;
+        border-radius: 20px;
+        overflow: hidden;
+        padding: 10px 0;
+        box-shadow: 0 5px 20px rgba(0,0,0, .20);
+        a {
+            position: relative;
+            height: 35px;
+            width: 40px;
+            display: block;
+            font-size: 14px;
+            line-height: 35px;
+            text-align: center;
+            color: var(--theme-color1);
+            transition: all 300ms ease;
+            &:hover {
+                color: var(--theme-color2);
+            }
+        }
+    }
+    .info-box {
+        position: relative;
+        text-align: center;
+        .name{
+            z-index: 2;
+            margin-bottom: 10px;
+        }
+        .designation {
+            position: relative;
+            display: block;
+            font-size: 16px;
+            font-weight: 500;
+            color: #7d8185;
+            letter-spacing: 1px;
+            z-index: 2;
+            line-height: 1em;
+            transition: all 400ms ease;
+        }
+    }
+
+}
