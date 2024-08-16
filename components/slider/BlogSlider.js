@@ -74,7 +74,7 @@ const BlogSlider = () => {
                                 <div className="image-box">
                                     <figure className="image">
                                         <Link href="/news-details">
-                                            <img src={`images/resource/${item.img}`} title="Edulrns" /></Link>
+                                            <img src={`images/resource/${item.img}`} title="Tmero" /></Link>
                                     </figure>
                                     <span className="date"><b>20</b> SEP</span>
                                 </div>

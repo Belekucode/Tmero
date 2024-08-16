@@ -35,7 +35,7 @@ const AboutFour = () => {
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column">
                                 <div className="image-box">
-                                    <figure className="image"><img src="images/resource/about-5.jpg" title="Edulrns" /></figure>
+                                    <figure className="image"><img src="images/resource/about-5.jpg" title="Tmero" /></figure>
                                     <div className="caption-box wow slideInRight">
                                         <div className="inner">
                                             <div className="icon"><i className="flaticon-study" /></div>

@@ -52,7 +52,7 @@ const TeamOne = () => {
                             <div className="team-block col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><a href="/page-team-details"><img src={`images/resource/${item.img}`} title="Edulrns" /></a></figure>
+                                        <figure className="image"><a href="/page-team-details"><img src={`images/resource/${item.img}`} title="Tmero" /></a></figure>
                                         <span className="share-icon fa fa-share-alt" />
                                         <div className="social-links">
                                             <a href="#"><i className="fab fa-twitter" /></a>

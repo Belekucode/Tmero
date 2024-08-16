@@ -6,7 +6,7 @@ const PageHead = ({ headTitle }) => {
         <>
             <Head>
                 <title>
-                    {headTitle ? headTitle : "Edulrns | Education Courses React Next JS Template"}
+                    {headTitle ? headTitle : "Tmero.com"}
 
                 </title>
                 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />

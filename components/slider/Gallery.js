@@ -74,7 +74,7 @@ const Gallery = () => {
                     <SwiperSlide>
                         <div className="gallery-item">
                             <a href="#" className="lightbox-image">
-                                <img src={`images/resource/${item.img}`} title="Edulrns" />
+                                <img src={`images/resource/${item.img}`} title="Tmero" />
                             </a>
                         </div>
                     </SwiperSlide>

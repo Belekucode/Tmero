@@ -28,7 +28,7 @@ const EventOne = () => {
                             <div className="inner-box">
                                 <div className="content-box">
                                     <div className="image-box">
-                                        <figure className="image"><img src="images/resource/event-1.jpg" title="Edulrns" /></figure>
+                                        <figure className="image"><img src="images/resource/event-1.jpg" title="Tmero" /></figure>
                                         <span className="date">20 <br /> May</span>
                                     </div>
                                     <h5 className="title"><Link href="#">Starting seo as your home based business</Link></h5>
@@ -44,7 +44,7 @@ const EventOne = () => {
                             <div className="inner-box">
                                 <div className="content-box">
                                     <div className="image-box">
-                                        <figure className="image"><img src="images/resource/event-2.jpg" title="Edulrns" /></figure>
+                                        <figure className="image"><img src="images/resource/event-2.jpg" title="Tmero" /></figure>
                                         <span className="date">20 <br /> May</span>
                                     </div>
                                     <h5 className="title"><Link href="#">Starting seo as your home based business</Link></h5>
@@ -60,7 +60,7 @@ const EventOne = () => {
                             <div className="inner-box">
                                 <div className="content-box">
                                     <div className="image-box">
-                                        <figure className="image"><img src="images/resource/event-3.jpg" title="Edulrns" /></figure>
+                                        <figure className="image"><img src="images/resource/event-3.jpg" title="Tmero" /></figure>
                                         <span className="date">20 <br /> May</span>
                                     </div>
                                     <h5 className="title"><Link href="#">Starting seo as your home based business</Link></h5>
@@ -76,7 +76,7 @@ const EventOne = () => {
                             <div className="inner-box">
                                 <div className="content-box">
                                     <div className="image-box">
-                                        <figure className="image"><img src="images/resource/event-4.jpg" title="Edulrns" /></figure>
+                                        <figure className="image"><img src="images/resource/event-4.jpg" title="Tmero" /></figure>
                                         <span className="date">20 <br /> May</span>
                                     </div>
                                     <h5 className="title"><Link href="#">Starting seo as your home based business</Link></h5>

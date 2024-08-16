@@ -46,7 +46,7 @@ const CourseTwo = () => {
                                     <div className="image-box">
                                         <figure className="image">
                                             <Link href="/page-course-details">
-                                                <img src={`/images/resource/${item.img}`} title="Edulrns" />
+                                                <img src={`/images/resource/${item.img}`} title="Tmero" />
                                             </Link>
                                         </figure>
                                         <span className="price">${item.price}</span>

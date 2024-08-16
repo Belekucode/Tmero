@@ -42,7 +42,7 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     <div className="auto-container">
                         <div className="inner-container">
                             <div className="logo-box">
-                                <div className="logo"><Link href="/"><Image src={LogoWhite} title='Edulrns' /></Link></div>
+                                <div className="logo"><Link href="/"><Image src={LogoWhite} title='Tmero' /></Link></div>
                             </div>
                             <ul className="contact-info-outer">
                                 <li>
@@ -108,7 +108,7 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     {/*Here Menu Will Come Automatically ViLink Javascript / Same Menu as in Header*/}
                     <nav className="menu-box">
                         <div className="upper-box">
-                            <div className="nav-logo"><Link href="/"><Image src={LogoDark} title='Edulrns' /></Link></div>
+                            <div className="nav-logo"><Link href="/"><Image src={LogoDark} title='Tmero' /></Link></div>
                             <div className="close-btn" onClick={handleRemove}><i className="icon fLink fa-times" /></div>
                         </div>
                         <MobileMenu />
@@ -166,7 +166,7 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                         <div className="inner-container">
                             {/*Logo*/}
                             <div className="logo">
-                                <Link href="/" title><Image src={LogoWhite} title='Edulrns' /></Link>
+                                <Link href="/" title><Image src={LogoWhite} title='Tmero' /></Link>
                             </div>
                             {/*Right Col*/}
                             <div className="nav-outer">

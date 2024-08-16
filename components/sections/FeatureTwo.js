@@ -19,7 +19,7 @@ const FeatureTwo = () => {
                         {/* Feature Block */}
                         <div className="feature-block-two col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                             <div className="inner-box ">
-                                <figure className="image"><img src="images/resource/feature-1.png" title="Edulrns" /></figure>
+                                <figure className="image"><img src="images/resource/feature-1.png" title="Tmero" /></figure>
                                 <h4 className="title"><Link href="/page-about">135,00 courses</Link></h4>
                                 <div className="text">Whether you want to learn or to share what you know, you’ve come to the right place.</div>
                             </div>
@@ -27,7 +27,7 @@ const FeatureTwo = () => {
                         {/* Feature Block */}
                         <div className="feature-block-two col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
                             <div className="inner-box ">
-                                <figure className="image"><img src="images/resource/feature-2.png" title="Edulrns" /></figure>
+                                <figure className="image"><img src="images/resource/feature-2.png" title="Tmero" /></figure>
                                 <h4 className="title"><Link href="/page-about">Industry instructors</Link></h4>
                                 <div className="text">Whether you want to learn or to share what you know, you’ve come to the right place.</div>
                             </div>
@@ -35,7 +35,7 @@ const FeatureTwo = () => {
                         {/* Feature Block */}
                         <div className="feature-block-two col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
                             <div className="inner-box ">
-                                <figure className="image"><img src="images/resource/feature-3.png" title="Edulrns" /></figure>
+                                <figure className="image"><img src="images/resource/feature-3.png" title="Tmero" /></figure>
                                 <h4 className="title"><Link href="/page-about">Lifetime access</Link></h4>
                                 <div className="text">Whether you want to learn or to share what you know, you’ve come to the right place.</div>
                             </div>

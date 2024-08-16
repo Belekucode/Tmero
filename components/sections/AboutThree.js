@@ -51,7 +51,7 @@ const AboutThree = () => {
                                     <span className="icon icon-wave" />
                                     <span className="icon icon-idea bounce-y" />
                                 </div>
-                                <figure className="image overlay-anim wow fadeInUp"><img src="images/resource/about-4.png" title="Edulrns" /></figure>
+                                <figure className="image overlay-anim wow fadeInUp"><img src="images/resource/about-4.png" title="Tmero" /></figure>
                                 <div className="author-info bounce-x">
                                     <h3 className="name">Aleesha brown</h3>
                                     <span className="designation">Maths teacher</span>

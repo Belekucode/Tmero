@@ -21,7 +21,7 @@ const FaqOne = () => {
                         </div>
                         <div className="image-column col-lg-6 col-md-12">
                             <div className="inner-column">
-                                <figure className="image"><img src="images/resource/faq.png" title="Edulrns" /></figure>
+                                <figure className="image"><img src="images/resource/faq.png" title="Tmero" /></figure>
                             </div>
                         </div>
                     </div>

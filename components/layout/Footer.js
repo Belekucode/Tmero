@@ -14,7 +14,7 @@ const Footer = () => {
                             {/*Footer Column*/}
                             <div className="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12">
                                 <div className="footer-widget about-widget">
-                                    <div className="logo"><Link href="/"><img src="images/logo-2.png" title="Edulrns" /></Link></div>
+                                    <div className="logo"><Link href="/"><img src="images/logo-2.png" title="Tmero" /></Link></div>
                                     <div className="text">Get 26,000+ best online courses from us</div>
                                     <ul className="social-icon-two">
                                         <li><Link href="#"><i className="fab fa-twitter" /></Link></li>
@@ -79,7 +79,7 @@ const Footer = () => {
                 <div className="footer-bottom">
                     <div className="auto-container">
                         <div className="inner-container">
-                            <div className="copyright-text">© Copyright 2022 by  <Link href="/">Company.com</Link></div>
+                            <div className="copyright-text">© Copyright 2024 by  <Link href="/">Tmero.com</Link></div>
                         </div>
                     </div>
                 </div>

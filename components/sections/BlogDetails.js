@@ -10,7 +10,7 @@ const BlogOne = ({ alternate }) => {
                         <div className="col-xl-8 col-lg-7">
                             <div className="blog-details__left">
                                 <div className="blog-details__img">
-                                    <img src="/images/resource/news-details.jpg" title='edulrns' />
+                                    <img src="/images/resource/news-details.jpg" title='Tmero' />
                                     <div className="blog-details__date">
                                         <span className="day">28</span>
                                         <span className="month">Aug</span>

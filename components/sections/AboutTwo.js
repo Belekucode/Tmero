@@ -21,7 +21,7 @@ const AboutTwo = () => {
                                         <div className="inner-box">
                                             <span className="info-text">Best off canvas program</span>
                                             <div className="info-box">
-                                                <div className="thumb"><img src="images/resource/avatar-1.jpg" title="Edulrns" /></div>
+                                                <div className="thumb"><img src="images/resource/avatar-1.jpg" title="Tmero" /></div>
                                                 <h5 className="name">John Doe</h5>
                                                 <span className="designation">Student</span>
                                             </div>
@@ -31,7 +31,7 @@ const AboutTwo = () => {
                                         <div className="inner-box">
                                             <span className="info-text">Best degree program</span>
                                             <div className="info-box">
-                                                <div className="thumb"><img src="images/resource/avatar-2.jpg" title="Edulrns" /></div>
+                                                <div className="thumb"><img src="images/resource/avatar-2.jpg" title="Tmero" /></div>
                                                 <h5 className="name">Albart Brown</h5>
                                                 <span className="designation">TEACHER</span>
                                             </div>
@@ -48,7 +48,7 @@ const AboutTwo = () => {
                                     <span className="icon icon-dotted-line" />
                                     <span className="icon icon-papper-plan" />
                                 </div>
-                                <figure className="image overlay-anim wow fadeInUp"><img src="images/resource/about-3.jpg" title="Edulrns" />
+                                <figure className="image overlay-anim wow fadeInUp"><img src="images/resource/about-3.jpg" title="Tmero" />
                                 </figure>
                             </div>
                         </div>
