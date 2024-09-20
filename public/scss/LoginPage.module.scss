@@ -75,14 +75,83 @@
 
         .loginBtn {
             width: 100%;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-size: 18px;
+            padding: 15px 60px;
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #ffffff;
+            border-radius: 50px;
             cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            background: var(--bg-theme-color1);
+            transition: all 500ms ease;
+            z-index: 1;
+        
+            &:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-color: var(--bg-theme-color2);
+                clip-path: polygon(50% 0, 50% 0, 50% 50%, 50% 100%, 50% 100%, 50% 50%);
+                transition: all 500ms ease;
+                z-index: -1;
+            }
+        
+            &:hover:before {
+                clip-path: polygon(25% -70%, 75% -70%, 120% 50%, 75% 170%, 25% 170%, -20% 50%);
+            }
+        
+            &:hover {
+                color: #ffffff;
+            }
+        
+            &.hvr-light:hover {
+                color: var(--theme-color2);
+            }
+        
+            &.hvr-light:before {
+                background-color: #ffffff;
+            }
+        
+            &.bg-theme-color2 {
+                background: var(--bg-theme-color2);
+        
+                &:before {
+                    background: var(--bg-theme-color1);
+                }
+            }
+        
+            &.bg-theme-color3 {
+                background: var(--bg-theme-color3);
+        
+                &:before {
+                    background: var(--bg-theme-color1);
+                }
+            }
+        
+            &.bg-theme-color4 {
+                background: var(--bg-theme-color4);
+        
+                &:before {
+                    background: var(--bg-theme-color1);
+                }
+            }
+        
+            &.bg-theme-color5 {
+                background: var(--bg-theme-color5);
+        
+                &:before {
+                    background: var(--bg-theme-color1);
+                }
+            }
         }
+        
     }
 }
 

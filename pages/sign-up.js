@@ -50,6 +50,9 @@ const SignupPage = () => {
                                 <div className={styles.formGroup}>
                                     <button className={styles.signupBtn} type="submit" name="submit-form">Sign Up</button>
                                 </div>
+                                <div className={styles.signupRedirect}>
+                                    Already have an account? <a href="/log-in">Log in</a>
+                                </div>
                             </form>
                         </div>
                     </div>
