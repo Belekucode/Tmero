@@ -16,7 +16,7 @@ const CtaOne = () => {
                             <div className="inner-column">
                                 <div className="sec-title light">
                                     <span className="style-font">Get your quality</span>
-                                    <h1>Skills certificate <br />from the edulerns</h1>
+                                    <h1>Skills certificate <br />from the Tmero</h1>
                                     <Link href="/page-course-details" className="theme-btn btn-style-one"><span className="btn-title">Get started now</span></Link>
                                 </div>
                             </div>
