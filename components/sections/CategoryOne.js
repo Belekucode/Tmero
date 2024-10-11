@@ -21,7 +21,7 @@ const CategoryOne = () => {
                                 <div className="icon-box">
                                     <i className="icon flaticon-student-2" />
                                 </div>
-                                <h6 className="title"><Link href="/page-course-details">Business <br />Management</Link></h6>
+                                <h6 className="title"><Link href="/page-course-details">Amharic</Link></h6>
                             </div>
                         </div>
                         {/* Category Block */}
@@ -30,7 +30,7 @@ const CategoryOne = () => {
                                 <div className="icon-box">
                                     <i className="icon flaticon-stationary" />
                                 </div>
-                                <h6 className="title"><Link href="/page-course-details">Arts and <br />Design</Link></h6>
+                                <h6 className="title"><Link href="/page-course-details">Afaan <br />Oromo</Link></h6>
                             </div>
                         </div>
                         {/* Category Block */}
@@ -39,7 +39,7 @@ const CategoryOne = () => {
                                 <div className="icon-box">
                                     <i className="icon flaticon-online-learning" />
                                 </div>
-                                <h6 className="title"><Link href="/page-course-details">Computer <br />Science</Link></h6>
+                                <h6 className="title"><Link href="/page-course-details">Somali</Link></h6>
                             </div>
                         </div>
                         {/* Category Block */}
@@ -48,7 +48,7 @@ const CategoryOne = () => {
                                 <div className="icon-box">
                                     <i className="icon flaticon-study" />
                                 </div>
-                                <h6 className="title"><Link href="/page-course-details">Personal <br />Development</Link></h6>
+                                <h6 className="title"><Link href="/page-course-details">Tigrigna</Link></h6>
                             </div>
                         </div>
                         {/* Category Block */}
@@ -57,7 +57,7 @@ const CategoryOne = () => {
                                 <div className="icon-box">
                                     <i className="icon flaticon-pie-chart" />
                                 </div>
-                                <h6 className="title"><Link href="/page-course-details">Business and <br />Finance</Link></h6>
+                                <h6 className="title"><Link href="/page-course-details">Character <br />Building Class</Link></h6>
                             </div>
                         </div>
                         {/* Category Block */}
@@ -66,7 +66,7 @@ const CategoryOne = () => {
                                 <div className="icon-box">
                                     <i className="icon flaticon-web-2" />
                                 </div>
-                                <h6 className="title"><Link href="/page-course-details">Video and <br />Photography</Link></h6>
+                                <h6 className="title"><Link href="/page-course-details">Religion <br />Study</Link></h6>
                             </div>
                         </div>
                     </div>

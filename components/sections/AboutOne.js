@@ -38,7 +38,7 @@ const AboutOne = () => {
                             <div className="inner-column wow fadeInLeft">
                                 <figure className="image-1 overlay-anim wow fadeInUp"><img src="images/resource/learning-family.webp" title="Tmero" /></figure>
                                 {/* <figure className="image-2 overlay-anim wow fadeInRight"><img src="images/resource/about-2.jpg" title="Tmero" /></figure> */}
-                                <div className="experience bounce-y"><span className="count">16</span> Years of Experience</div>
+                                <div className="experience bounce-y"><span className="count">4</span>Languages, One Goal</div>
                             </div>
                         </div>
                     </div>

@@ -13,7 +13,7 @@ const AboutTwo = () => {
                         <div className="content-column col-lg-6 col-md-12 order-2 wow fadeInRight" data-wow-delay="600ms">
                             <div className="inner-column">
                                 <div className="sec-title">
-                                    <h2>Over 36 years in distant learning for skills</h2>
+                                    <h2>Many years in distant learning for skills</h2>
                                     <div className="text">Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor incididunt labore dolore magna aliquaenim ad minim. Sed risus augue, commodo ornare felis non, eleifend molestie metus pharetra eleifend.</div>
                                 </div>
                                 <div className="row">

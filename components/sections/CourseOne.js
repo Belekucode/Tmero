@@ -22,7 +22,7 @@ const CourseOne = () => {
                     </div>
                     <div className="bottom-text">
                         <div className="content">
-                            <strong>23,000+</strong> more skillful courses you can explore <Link href="/page-courses" className="theme-btn btn-style-one small">Explore All Courses</Link>
+                            <strong>Countless</strong> more courses you can explore <Link href="/page-courses" className="theme-btn btn-style-one small">Explore All Courses</Link>
                         </div>
                     </div>
                 </div>
