@@ -8,14 +8,14 @@ const PopularCourses = () => {
 
     const data = [
         {
-            img: "somali-session.jpg",
+            img: "somali-session.webp",
             title: "Learn Somali Easily from Your Own Home",
             price: 49.00,
             lesson: 8,
             students: 16,
         },
         {
-            img: "amharic-session.png",
+            img: "amharic-session.webp",
             title: "Learn Amharic Easily from Your Own Home",
             price: 49.00,
             lesson: 8,
