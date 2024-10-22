@@ -8,7 +8,7 @@ const CourseOne = () => {
             <section className="courses-section">
                 <div className="auto-container">
                     <div className="anim-icons">
-                        <span className="icon icon-e wow zoomIn" />
+                        {/* <span className="icon icon-e wow zoomIn" /> */}
                     </div>
                     <div className="sec-title">
                         <span className="sub-title">popular courses</span>

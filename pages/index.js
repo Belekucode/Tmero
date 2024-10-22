@@ -31,7 +31,7 @@ export default function Home() {
                 <AboutTwo />
                 <CountdownOne />
                 <NewsOne />
-                <ClientOne />
+                {/* <ClientOne /> */}
             </Layout>
         </>
     )

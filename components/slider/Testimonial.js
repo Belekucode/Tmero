@@ -8,18 +8,27 @@ const Testimonial = () => {
     const data = [
         {
             img: "testi-thumb-1.jpg",
-            title: "Jame sickres",
-            desig: "Market Manager"
+            title: "Ali Mohammed",
+            lang: "Somali",
+            testimonial: "Kooraskan wuxuu wax weyn ka beddelay carruurtayda. Waxay hadda awoodaan inay si kalsooni leh uga hadlaan afkoodii hooyo, taas oo naga caawisay inaan xiriir wanaagsan yeelanno oo ku xirnaanno dhaqankeenna."
         },
         {
             img: "testi-thumb-2.jpg",
-            title: "Jame sickres",
-            desig: "Market Manager"
+            title: "ብርሃነ አበበ",
+            lang: "Amharic",
+            testimonial: "ይህ ኮርስ ልጆቼን በጣም አስገራሚ አደረገዋል። አሁን በቋንቋቸው በተሰማራ ሁኔታ መነጋገር እንደሚችሉ እና በባህላችን እንደሚገነኙ ማየት አደስቶኛል።"
         },
         {
             img: "testi-thumb-1.jpg",
-            title: "Aleesha brown",
-            desig: "Market Manager"
+            title: "Ayyaana Abdi",
+            lang: "Afaan Oromo",
+            testimonial: "Koorsoon kun ijoollee kiyyaaf faayidaa guddaa qaba. Ilmi keenya afaan isaa jalqabaa keessatti dandeettii guddaa argatee jira, kunis qunnamtii keenya cimaa taasiseera, akkasumas aadaa keenya waliin wal qunnamtii qaba."
+        },
+        {
+            img: "testi-thumb-2.jpg",
+            title: "ኣብርሃም ኣሰፋ",
+            lang: "Tigrigna",
+            testimonial: "እዚ ኮርስ ኣብ ናታት ህጻናትይ ሓበሬታ ታሪካዊ እዩ። እዚኦም ኣብቲ ቋንቋ ምምሃር ብተመኻኸርቲ ምንባብ ዝኸድ እንተሃበሮም።"
         }
     ];
 
@@ -30,7 +39,7 @@ const Testimonial = () => {
                 slidesPerView={2}
                 loop={true}
                 autoplay={{
-                    delay: 2500,
+                    delay: 3500,
                     disableOnInteraction: false
                 }}
                 navigation={{
@@ -65,11 +74,11 @@ const Testimonial = () => {
                             <div className="content-box">
                                 <figure className="thumb"><img src={`images/resource/${item.img}`} title="Tmero" /></figure>
                                 <div className="rating"><i className="fa fa-star" /><i className="fa fa-star" /><i className="fa fa-star" /><i className="fa fa-star" /><i className="fa fa-star" /></div>
-                                <div className="text">Lorem ipsum is simply free text dolor sit amet, consectetur adipisicing elit, sed do incididunt ut labore et dolore magna aliqua.</div>
+                                <div className="text">{item.testimonial}</div>
                                 <div className="info-box">
                                     <span className="icon-quote" />
                                     <h4 className="name">{item.title}</h4>
-                                    <span className="designation">{item.desig}</span>
+                                    <span className="designation">{item.lang}</span>
                                 </div>
                             </div>
                         </div>

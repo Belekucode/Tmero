@@ -16,7 +16,7 @@ const TestimonialOne = () => {
                                 <div className="sec-title">
                                     <span className="sub-title">Our testimonials</span>
                                     <h2>What they’re <br />saying about our <br />courses</h2>
-                                    <div className="text">Quisque commodo, magna nec accu man euismod tellus mi ornare enim.</div>
+                                    <div className="text">Discover how our courses have positively impacted families, helping children thrive in their languages and deepen their cultural connections.</div>
                                 </div>
                             </div>
                         </div>

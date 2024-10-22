@@ -54,7 +54,7 @@ const ContactInner = () => {
                                 <div className="sec-title">
                                     <span className="sub-title">Need any help?</span>
                                     <h2>Get in touch with us</h2>
-                                    <div className="text">Lorem ipsum is simply free text available dolor sit amet consectetur notted adipisicing elit sed do eiusmod tempor incididunt simply dolore magna.</div>
+                                    <div className="text">We're always here to assist you! Whether you need more information about our courses, have questions, or require support, don’t hesitate to contact us. Our team is ready to help you every step of the way.</div>
                                 </div>
                                 <ul className="list-unstyled contact-details__info">
                                     <li>
@@ -63,7 +63,7 @@ const ContactInner = () => {
                                         </div>
                                         <div className="text">
                                             <h6>Have any question?</h6>
-                                            <a href="tel:980089850"><span>Free</span> +92 (020)-9850</a>
+                                            <a href="tel:206-960-5972"><span>Free</span> +1 (206) 960-5972 </a>
                                         </div>
                                     </li>
                                     <li>
@@ -72,7 +72,7 @@ const ContactInner = () => {
                                         </div>
                                         <div className="text">
                                             <h6>Write email</h6>
-                                            <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                                            <a href="mailto:info@tmero.com">info@tmero.com</a>
                                         </div>
                                     </li>
                                     <li>
@@ -81,7 +81,7 @@ const ContactInner = () => {
                                         </div>
                                         <div className="text">
                                             <h6>Visit anytime</h6>
-                                            <span>66 broklyn golden street. New York</span>
+                                            <span>International Mall, 20804 International<br /> Blvd, SeaTac, WA 98198 </span>
                                         </div>
                                     </li>
                                 </ul>
@@ -94,7 +94,7 @@ const ContactInner = () => {
             <section>
                 <div className="container-fluid p-0">
                     <div className="row">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.843149788316!2d144.9537131159042!3d-37.81714274201087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sbn!2sbd!4v1583760510840!5m2!1sbn!2sbd" data-tm-width="100%" height="500" allowfullscreen=""></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10799.329160529745!2d-122.2969373!3d47.4152123!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905ba6f520b465%3A0xb1d2a9b6591d2ea4!2sSeaTac%20International%20Mall!5e0!3m2!1sen!2set!4v1729610925258!5m2!1sen!2set" data-tm-width="100%" height="500" allowfullscreen=""></iframe> 
                     </div>
                 </div>
             </section>

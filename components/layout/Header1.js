@@ -23,10 +23,6 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                             <NavLinks extraClassName="header1" />
                         </nav>
                         <div className="outer-box">
-                            <Link href="tel:+92(8800)9806" className="info-btn">
-                                <i className="icon fa fa-phone" />
-                                <small>Call Anytime</small><br /> +92 (8800) - 8960
-                            </Link>
                             <div className="ui-btn-outer">
                                 <button className="ui-btn ui-btn search-btn" onClick={handleToggle}>
                                     <span className="icon lnr lnr-icon-search" />
@@ -51,21 +47,20 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                                 <div className="contact-info-box">
                                     <i className="icon lnr-icon-phone-handset" />
                                     <span className="title">Call Now</span>
-                                    <Link href="/tel:+92880098670">+92 (8800) - 98670</Link>
+                                    <Link href="/tel:+92880098670">+1 (206) 960-5972</Link>
                                 </div>
                             </li>
                             <li>
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-envelope1" />
                                     <span className="title">Send Email</span>
-                                    <Link href="/mailto:help@company.com">help@company.com</Link>
+                                    <Link href="/mailto:help@company.com">info@tmero.com</Link>
                                 </div>
                             </li>
                             <li>
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-clock" />
                                     <span className="title">Send Email</span>
-                                    Mon - Sat 8:00 - 6:30, Sunday - CLOSED
                                 </div>
                             </li>
                         </ul>

@@ -15,7 +15,7 @@ const Footer = () => {
                             <div className="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12">
                                 <div className="footer-widget about-widget">
                                     <div className="logo"><Link href="/"><img src="images/logo-2.png" title="Tmero" /></Link></div>
-                                    <div className="text">Get 26,000+ best online courses from us</div>
+                                    <div className="text">Best online language courses from us</div>
                                     <ul className="social-icon-two">
                                         <li><Link href="#"><i className="fab fa-twitter" /></Link></li>
                                         <li><Link href="#"><i className="fab fa-facebook" /></Link></li>

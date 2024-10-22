@@ -15,7 +15,7 @@ const SignupOne = () => {
                             <div className="title-column col-lg-6 col-md-12 col-sm-12">
                                 <div className="sec-title light">
                                     <h2>Sign up for a<br /> free trial lesson<br /> by zoom</h2>
-                                    <div className="text">Quisque commodo, magna nec accu man euismod <br /> tellus mi ornare enim, quis congue elit.</div>
+                                    <div className="text">Discover engaging language learning that connects your child to culture, communication, and confidence.</div>
                                 </div>
                             </div>
                             {/* Form Column */}
@@ -34,8 +34,10 @@ const SignupOne = () => {
                                             <div className="form-group">
                                                 <select className="custom-select">
                                                     <option value>Select course</option>
-                                                    <option value="UI/UX Designing">UI/UX Designing</option>
-                                                    <option value="Digital Marketing">Digital Marketing</option>
+                                                    <option value="Amharic">Amharic</option>
+                                                    <option value="Somali">Somali</option>
+                                                    <option value="Tigrigna">Tigrigna</option>
+                                                    <option value="Afaan Oromo">Afaan Oromo</option>
                                                 </select>
                                             </div>
                                             <div className="form-group">

@@ -15,12 +15,13 @@ const AboutOne = () => {
                                 <div className="sec-title">
                                     <span className="sub-title">Get to know us</span>
                                     <h2>Grow your skills learn with us from anywhere</h2>
-                                    <div className="text">Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor incididunt labore dolore magna aliquaenim ad minim. Sed risus augue, commodo ornare felis non, eleifend molestie metus pharetra eleifend.</div>
+                                    <div className="text">At Tmero, we believe that language is more than just words, It's a bridge to culture, connection, and character building. Imagine having a heartfelt conversation with your kids in your native language, strengthening bonds and creating memories that will last a lifetime.
+With expert trainers and interactive lessons, your child will not only learn how to communicate but will also cultivate a deep appreciation for their roots. Through fun games, engaging activities, and real-world applications, we ensure that language learning is both meaningful and rewarding. </div>
                                 </div>
                                 <ul className="list-style-one two-column">
                                     <li><i className="icon fa fa-check" /> Expert trainers</li>
                                     <li><i className="icon fa fa-check" /> Online learning</li>
-                                    <li><i className="icon fa fa-check" /> Lifetime access</li>
+                                    <li><i className="icon fa fa-check" /> Good character build</li>
                                     <li><i className="icon fa fa-check" /> Great results</li>
                                 </ul>
                                 <div className="btn-box">
